@@ -9,7 +9,7 @@ The application can be run on Windows with a .NET framework installed
 # Pricing
 Price model will be separated by two editions
 - Community - use without any fee forever with few limits
-- Activated - you pay a low amount just **10$** and use it forever with all features / get prompt support in 5 years
+- Activated - you pay a low amount just **10$** and use it forever with all features / prompt support in 5 years
 
 # Comparision
 
@@ -22,4 +22,4 @@ Price model will be separated by two editions
 |Number of databases limited    | **5**     | **No limit**    |
 |Multi-instances on the same server|    |&#10004;   |
 
-# Videos
+# Videos & Docs
