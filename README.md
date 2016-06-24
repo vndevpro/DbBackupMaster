@@ -8,5 +8,18 @@ The application can be run on Windows with a .NET framework installed
 
 # Pricing
 Price model will be separated by two editions
-- Community - use without any fee forever
-- Activated - charge a low amount just **10$** and use it forever / get support in 5 years
+- Community - use without any fee forever with few limits
+- Activated - you pay a low amount just **10$** and use it forever with all features / get prompt support in 5 years
+
+# Comparision
+
+| Feature \ Edition  | Community | Activated |
+|-          |:-:                |:-:                |
+|Compress backup if SQL Server supported |&#10004;   |&#10004;   |
+|Auto Compress backup if SQL Server not support  |&#10004;   |&#10004;   |
+|Track all commands |   &#10004; | &#10004;   |
+|Price|    Free |10$   |
+|Number of databases limited    |5     |No limit    |
+|Multi-instances on the same server|    |&#10004;   |
+
+# Videos
