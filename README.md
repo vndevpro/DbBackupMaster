@@ -19,7 +19,7 @@ Price model will be separated by two editions
 |Auto Compress backup if SQL Server not support  |&#10004;   |&#10004;   |
 |Track all commands |   &#10004; | &#10004;   |
 |Price|    **Free** | **10$**   |
-|Number of databases limited    |5     |No limit    |
+|Number of databases limited    | **5**     | **No limit**    |
 |Multi-instances on the same server|    |&#10004;   |
 
 # Videos
