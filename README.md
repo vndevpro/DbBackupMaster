@@ -14,7 +14,7 @@ Price model will be separated by two editions
 # Comparision
 
 | Feature \ Edition  | Community | Activated |
-|-          |:-:                |:-:                |
+|--- |:---: |:---: |
 |Compress backup if SQL Server supported |&#10004;   |&#10004;   |
 |Auto Compress backup if SQL Server not support  |&#10004;   |&#10004;   |
 |Track all commands |   &#10004; | &#10004;   |
