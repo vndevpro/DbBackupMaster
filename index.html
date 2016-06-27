@@ -1,136 +1,147 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Database Backup Master : DBBM (Database Backup Master) does backup one or many databases in a convenient way. It utilises compression feature from SQL Server if supported or auto zipping backup sets to save storage space.">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-	
-	<link rel="stylesheet" type="text/css" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css">
-	
-    <title>Database Backup Master</title>
-  </head>
 
-  <body>
+    <link rel="stylesheet" type="text/css" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <title>Database Backup Master</title>
+</head>
+
+<body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/vndevpro/dbbm">View on GitHub</a>
+            <!--<a id="forkme_banner" href="https://github.com/vndevpro/dbbm">View on GitHub</a>-->
 
-          <h1 id="project_title">Database Backup Master</h1>
-          <h2 id="project_tagline">DBBM (Database Backup Master) does backup one or many databases in a convenient way. It utilises compression feature from SQL Server if supported or auto zipping backup sets to save storage space.</h2>
+            <h1 id="project_title">Database Backup Master</h1>
+            <h2 id="project_tagline">DBBM (Database Backup Master) does backup one or many databases in a convenient way. It utilises compression feature from SQL Server if supported or auto zipping backup sets to save storage space.</h2>
 
             <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/vndevpro/dbbm/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/vndevpro/dbbm/tarball/master">Download this project as a tar.gz file</a>
+                <a class="zip_download_link" href="https://github.com/vndevpro/dbbm/zipball/master">Download application as a .zip file</a>
+                <!--<a class="tar_download_link" href="https://github.com/vndevpro/dbbm/tarball/master">Download this project as a tar.gz file</a>-->
             </section>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="database-backup-master" class="anchor" href="#database-backup-master" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Database Backup Master</h1>
+        <section id="main_content" class="inner">
+            <h1>
+                <a id="database-backup-master" class="anchor" href="#database-backup-master" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Database Backup Master
+            </h1>
 
-<p>DBBM (Database Backup Master) does backup one or many databases in a convenient way. It utilizes compression feature from SQL Server if supported or auto zipping backup sets to save storage space.</p>
+            <p>DBBM (Database Backup Master) does backup one or many databases in a convenient way. It utilizes compression feature from SQL Server if supported or auto zipping backup sets to save storage space.</p>
 
-<h1>
-<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h1>
+            <h1>
+                <a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements
+            </h1>
 
-<p>The application can be run on Windows with a .NET framework installed</p>
+            <p>The application can be run on Windows with a .NET framework installed</p>
 
-<ul>
-<li>Windows (XP / 7 / Server or any edition)</li>
-<li>.NET Framework 4.5 </li>
-</ul>
+            <ul>
+                <li>Windows (XP / 7 / Server or any edition)</li>
+                <li>.NET Framework 4.5 </li>
+            </ul>
 
-<h1>
-<a id="pricing" class="anchor" href="#pricing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pricing</h1>
+            <h1>
+                <a id="comparision" class="anchor" href="#comparision" aria-hidden="true">
+                    <span aria-hidden="true" class="octicon octicon-link"></span>
+                </a>
+                Edition comparision
+            </h1>
 
-<p>Price model will be separated by two editions</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th align="left">Feature \ Edition</th>
+                        <th align="center">Community</th>
+                        <th align="center">Activated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="left">Compress backup if SQL Server supported</td>
+                        <td align="center">✔</td>
+                        <td align="center">✔</td>
+                    </tr>
+                    <tr>
+                        <td align="left">Auto Compress backup if SQL Server not support</td>
+                        <td align="center">✔</td>
+                        <td align="center">✔</td>
+                    </tr>
+                    <tr>
+                        <td align="left">Track all commands</td>
+                        <td align="center">✔</td>
+                        <td align="center">✔</td>
+                    </tr>
+                    <tr>
+                        <td align="left">Price</td>
+                        <td align="center"><strong>Free</strong></td>
+                        <td align="center"><strong>10$</strong></td>
+                    </tr>
+                    <tr>
+                        <td align="left">Number of databases limited</td>
+                        <td align="center"><strong>5</strong></td>
+                        <td align="center"><strong>No limit</strong></td>
+                    </tr>
+                    <tr>
+                        <td align="left">Multi-instances on the same server</td>
+                        <td align="center"></td>
+                        <td align="center">✔</td>
+                    </tr>
+                </tbody>
+            </table>
 
-<ul>
-<li>Community - use without any fee forever with few limits</li>
-<li>Activated - you pay a low amount just <strong>10$</strong> and use it forever with all features / prompt support in 5 years</li>
-</ul>
+            <h1>
+                <a id="pricing" class="anchor" href="#pricing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pricing
+            </h1>
 
+            <p>Price model will be separated by two editions</p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="XEDX8MHR4MAYE">
-<table>
-<tr><td><input type="hidden" name="on0" value="Enter app code in the key file">Enter app code in the key file</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-</table>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+            <ul>
+                <li>Community - use without any fee forever with few limits</li>
+                <li>Activated - you pay a low amount just <strong>10$</strong> and use it forever with all features / prompt support in 5 years</li>
+            </ul>
 
+            <h1>
+                <a id="paying-paypal" class="anchor" href="#paying" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Buying by PayPal
+            </h1>
 
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="XEDX8MHR4MAYE">
+                <div class="form-group">
+                    <label for="os0">Enter app code in the key file</label>
+                    <input type="text" name="os0" maxlength="200" class="form-control" />
+                    <input type="hidden" name="on0" value="Enter app code in the key file" />
+                </div>
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
 
-<h1>
-<a id="comparision" class="anchor" href="#comparision" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Comparision</h1>
-
-<table>
-<thead>
-<tr>
-<th align="left">Feature \ Edition</th>
-<th align="center">Community</th>
-<th align="center">Activated</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Compress backup if SQL Server supported</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td align="left">Auto Compress backup if SQL Server not support</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td align="left">Track all commands</td>
-<td align="center">✔</td>
-<td align="center">✔</td>
-</tr>
-<tr>
-<td align="left">Price</td>
-<td align="center"><strong>Free</strong></td>
-<td align="center"><strong>10$</strong></td>
-</tr>
-<tr>
-<td align="left">Number of databases limited</td>
-<td align="center"><strong>5</strong></td>
-<td align="center"><strong>No limit</strong></td>
-</tr>
-<tr>
-<td align="left">Multi-instances on the same server</td>
-<td align="center"></td>
-<td align="center">✔</td>
-</tr>
-</tbody>
-</table>
-
-<h1>
-<a id="videos--docs" class="anchor" href="#videos--docs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Videos &amp; Docs</h1>
-      </section>
+            <h1>
+                <a id="videos--docs" class="anchor" href="#videos--docs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Videos &amp; Docs
+            </h1>
+        </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Database Backup Master maintained by <a href="https://github.com/vndevpro">vndevpro</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
+        <footer class="inner">
+            <p class="copyright">Database Backup Master maintained by <a href="https://github.com/vndevpro">vndevpro</a></p>
+            <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        </footer>
     </div>
 
-    
 
-  </body>
+
+</body>
 </html>
