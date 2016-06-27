@@ -6,11 +6,6 @@ The application can be run on Windows with a .NET framework installed
 - Windows (XP / 7 / Server or any edition)
 - .NET Framework 4.5 
 
-# Pricing
-Price model will be separated by two editions
-- Community - use without any fee forever with few limits
-- Activated - you pay a low amount just **10$** and use it forever with all features / prompt support in 5 years
-
 # Comparision
 
 | Feature \ Edition  | Community | Activated |
@@ -21,5 +16,12 @@ Price model will be separated by two editions
 |Price|    **Free** | **10$**   |
 |Number of databases limited    | **5**     | **No limit**    |
 |Multi-instances on the same server|    |&#10004;   |
+
+# Pricing
+Price model will be separated by two editions
+- Community - it is fee forever with few limits
+- Activated - you pay a low amount just **10$** and use it forever with all features
+
+[Find more information there](http://vndev.top/dbbm/#pricing)
 
 # Videos & Docs
